@@ -1,0 +1,158 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+}
+
+body {
+    background-color: #959d90;
+    scroll-behavior: smooth;
+}
+
+header {
+    position: sticky;
+    width: 100vw;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 4;
+}
+
+/* header */
+.heading {
+    overflow: auto;
+    display: flex;
+    height: 100px;
+    left: 0px;
+    align-items: center;
+    background-color: #223030;
+}
+
+.logo {
+    height: 70px;
+    width: 70px;
+    display: flex;
+    padding: 2px;
+    align-items: center;
+    justify-content: center;
+    background-color: #efefe9;
+    border-radius: 50%;
+}
+
+
+
+.head {
+    margin-left: 15px;
+    display: flex;
+    align-items: center;
+    font-size: 13.5px;
+}
+
+.head h1 {
+    color: #ffffff;
+    letter-spacing: -1px;
+
+}
+
+/* footer */
+footer {
+    background-color: #9d7f64;
+
+}
+
+.bottom {
+    margin-top: 30px;
+    padding: 12px 5px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.bottom h4 {
+    font-size: 20px;
+    color: #ffffff;
+}
+
+.bottom h5 {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.bottom address {
+    font-size: 14px;
+    color: #ffffff;
+}
+
+.image {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.image img {
+    width: 20vw;
+    max-width: 100px;
+    min-width: 70px;
+}
+
+.social {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #385050;
+}
+
+.icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.icon img {
+    padding-top: 6px;
+    height: 25px;
+}
+
+@media(min-width:450px) {
+    .head {
+        font-size: 15px;
+        margin-left: 25px;
+    }
+
+    .navbar ul li a {
+        font-size: 20px;
+    }
+
+    .navbar ul li a:hover {
+        font-size: 22px;
+        color: #ffffff;
+    }
+
+    .al_name {
+        font-size: 18px;
+    }
+}
+
+@media(min-width:850px) {
+
+
+    .head {
+        font-size: 17px;
+        margin-left: 35px;
+    }
+
+    .al_name {
+        font-size: 20px;
+    }
+
+    .bottom h4 {
+        font-size: 25px;
+    }
+
+    .bottom h5,
+    .bottom address {
+        font-size: 18px;
+    }
+
+}

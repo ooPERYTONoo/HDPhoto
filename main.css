@@ -1,0 +1,52 @@
+/* main section */
+.content {
+    margin-top: 100px;
+}
+
+/* 3 card animation */
+.slide-i {
+    width: 20%;
+    height: 400px;
+    box-shadow: 5px 5px 5px rgb(90, 80, 80);
+    margin: 100px auto;
+    position: relative;
+    overflow: hidden;
+}
+
+.slide {
+    width: 100%;
+    height: 100%;
+    transition: 1s;
+    position: absolute;
+}
+
+/* links */
+.sites {
+    margin-top: 100px;
+}
+
+.row1 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link {
+    height: 60px;
+    width: 40vw;
+    background-color: #223030;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 8px;
+    font-size: 23px;
+    color: #ffffff;
+    text-decoration: none;
+    outline: 1px solid #959d90;
+    border-radius: 12px 4px;
+    outline-offset: -7px;
+}
+
+.link:hover {
+    background-color: #385050;
+    outline-offset: -2px;
+}

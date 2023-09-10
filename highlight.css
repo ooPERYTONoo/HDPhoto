@@ -1,0 +1,60 @@
+/* highlight */
+.navbar ul li a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #e8d9cd;
+    font-size: 16px;
+}
+
+.navbar ul li a:hover {
+    font-size: 18px;
+    color: #ffffff;
+}
+
+.navbar ul {
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+    background-color: #223030;
+    overflow: auto;
+    align-items: center;
+    border-top: 1px solid #959d90;
+}
+
+.navbar ul li {
+    margin: 13px 5px;
+}
+
+#select {
+    color: #9d7f64;
+}
+
+
+/* main */
+
+.al_name {
+    display: flex;
+    margin: 23px 0px;
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    background-color: #9d7f64;
+}
+
+.album {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    margin: 0px 8px;
+}
+
+.videos video {
+    width: 45vw;
+    max-width: 300px;
+    min-width: 250px;
+    height: auto;
+    max-height: 400px;
+    cursor: pointer;
+}
