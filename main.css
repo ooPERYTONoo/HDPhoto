@@ -6,7 +6,9 @@
 /* 3 card animation */
 .slide-i {
     width: 20%;
-    height: 400px;
+    height: 450px;
+    min-width: 230px;
+    
     box-shadow: 5px 5px 5px rgb(90, 80, 80);
     margin: 100px auto;
     position: relative;
