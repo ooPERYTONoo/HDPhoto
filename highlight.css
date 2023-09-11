@@ -42,19 +42,48 @@
     background-color: #9d7f64;
 }
 
-.album {
+.content {
     display: flex;
-    flex-wrap: wrap;
     justify-content: center;
-    gap: 15px;
-    margin: 0px 8px;
+    align-items: center;
+    margin: 52px 0px;
 }
 
-.videos video {
-    width: 45vw;
-    max-width: 300px;
-    min-width: 250px;
-    height: auto;
-    max-height: 400px;
-    cursor: pointer;
+.album_box {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    width: 95%;
+}
+
+
+.video {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+    margin: 0px 10px;
+
+}
+
+.video video {
+    width: 100%;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    outline: 2px double #959d90;
+    outline-offset: -5px;
+}
+
+@media only screen and (max-width:800px) {
+    .album_box {
+        flex-direction: column;
+    }
+
+    .video {
+        width: 100%;
+    }
+
+    .video video {
+        scroll-snap-align: start;
+    }
 }
