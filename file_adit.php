@@ -12,8 +12,8 @@
 
             <label for="targetFolder">Select a folder:</label>
             <select name="targetFolder" id="targetFolder">
-                <option value="img/insta/">insta</option>
-                <option value="img/feck/">feck</option>
+                <option value="img/">insta</option>
+                <option value="img/">feck</option>
                 <!-- Add more folder options as needed -->
             </select><br>
 
